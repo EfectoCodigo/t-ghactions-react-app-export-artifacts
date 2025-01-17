@@ -39,6 +39,6 @@ jobs:
         with:
           name: dist-files
       - name: Show files
-        run: pws && ls -al
+        run: pwd && ls -al
       - name: Deploy
         run: echo "Deploying..."
